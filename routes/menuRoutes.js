@@ -4,7 +4,7 @@ const MenuItem=require('../models/MenuItem.js');
 
 
 // To Add the Menu Item in database
-router.post('/', async (req,res) =>{
+router.post('/add', async (req,res) =>{
 
     try{
  
